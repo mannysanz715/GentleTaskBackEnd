@@ -10,11 +10,13 @@ target/
 .factorypath
 .project
 .settings
+.properties
 .springBeans
 .sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
+.env
 *.iws
 *.iml
 *.ipr
