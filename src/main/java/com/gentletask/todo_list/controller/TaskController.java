@@ -67,6 +67,10 @@ public class TaskController {
       return taskRepository.findById(id);
   }
 
+  @DeleteMapping("/{id}")
+  public void deleteTodo(@PathVariable String id){
+    taskRepository.deleteById(id);
+  }
   
   //Updating Task
   @PutMapping("/{id}")
